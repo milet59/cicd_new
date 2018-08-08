@@ -1,0 +1,22 @@
+{ 
+      "builders": [{ 
+     "type": "amazon-ebs", 
+     "access_key": "AKIAJQTXBAHNPTYBYBGQ", 
+     "secret_key": "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", 
+     "region": "us-west-2", 
+     "source_ami": "ami-28e07e50", 
+     "instance_type": "t2.micro", 
+     "ssh_username": "ec2-user", 
+     "ami_name": "RHEL6.9 with chef-client2"
+      }], 
+      "provisioners": [{ 
+     "type": "shell", 
+     "Inline": [
+        "curl -o example.sh https://raw.githubusercontent.com/milet59/cicd_new/master/example.sh"   
+       ]    },{
+      "type": "shell",
+       "script":"example.sh"
+       }]
+
+}
+

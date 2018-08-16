@@ -8,11 +8,11 @@
      "type": "amazon-ebs", 
      "access_key": "{{user `aws_access_key`}}",
      "secret_key": "{{user `aws_secret_key`}}",
-     "region": "us-east-2", 
+     "region": "us-west-1", 
      "source_ami": "ami-43f7cf26", 
      "instance_type": "t2.micro", 
      "ssh_username": "ec2-user", 
-     "ami_name": "RHEL6.9 with chef-client7"
+     "ami_name": "RHEL6.9 with chef-client8"
       }], 
       "provisioners": [{ 
      "type": "shell", 

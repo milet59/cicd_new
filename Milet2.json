@@ -9,10 +9,10 @@
      "access_key": "{{user `aws_access_key`}}",
      "secret_key": "{{user `aws_secret_key`}}",
      "region": "us-west-1", 
-     "source_ami": "ami-a77e92c4", 
+     "source_ami": "ami-05660c9657c2df5cf", 
      "instance_type": "t2.micro",  
      "ssh_username": "ec2-user", 
-     "ami_name": "RHEL6.9 with chef-client14"
+     "ami_name": "RHEL7 with chef-client"
       }], 
       "provisioners": [{ 
      "type": "shell", 

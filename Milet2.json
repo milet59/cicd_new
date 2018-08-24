@@ -12,7 +12,7 @@
      "source_ami": "ami-05660c9657c2df5cf", 
      "instance_type": "t2.micro",  
      "ssh_username": "ec2-user", 
-     "ami_name": "RHEL7.3 with chef-client"
+     "ami_name": "RHEL7.3 with chef-client1"
       }], 
       "provisioners": [{ 
      "type": "shell", 
